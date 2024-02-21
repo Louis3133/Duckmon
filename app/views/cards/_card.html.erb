@@ -1,38 +1,45 @@
 <div class="card col-lg-12" id="<%= dom_id card %>" >
 
+
+  <div class="top_card">
+    <p>
+
+      <strong><%= card.name %></strong>
+    </p>
+
+    <p>
+      <strong>Pv</strong>
+      <%= card.pv %>
+    </p>
+  </div>
+
+
   <img class="card-img-top " src="<%= card.image_card %>" alt="illustration de la carter"  height="160px" >
 
-  <p>
-    <strong>Pv:</strong>
-    <%= card.pv %>
-  </p>
+  <p class="top_card">
 
-  <p>
-    <strong>Name:</strong>
-    <%= card.name %>
-  </p>
-
-  <p>
-    <strong>Description:</strong>
     <%= card.description %>
   </p>
 
-  <p>
-    <strong>Damages:</strong>
-    <%= card.damages %>
-  </p>
 
 
+  <div class="top_card">
+    <p>
+    <strong><%= card.attack_name %></strong>
 
 
-  <p>
-    <strong>Action:</strong>
-    <%= card.action %>
-  </p>
+    </p>
 
-  <p>
-    <strong>Attack name:</strong>
-    <%= card.attack_name %>
-  </p>
+
+    <p>
+      <strong><%= card.damages %></strong>
+
+    </p>
+  </div>
+
+
+    <p class="top_card">
+      <%= card.action %>
+    </p>
 
 </div>
