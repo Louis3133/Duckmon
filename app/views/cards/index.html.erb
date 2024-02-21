@@ -3,20 +3,19 @@
 <h1>Cards</h1>
 
 <div class="container">
+  <div class="row">
+    <% @cards.each do |card| %>
+      <div class="col-lg-4">
+          <%= render card %>
+          <div class="card-body">
+            <p>
+              <%= link_to "Montrer la carte", card, class: "btn btn-success" %>
+            </p>
+          </div>
 
-  <div class="cartes">
 
-    <div id="cards" >
-      <% @cards.each do |card| %>
-        <%= render card %>
-        <p>
-          <%= link_to "Montrer la carte", card, class:"btn btn-success"  %>
-        </p>
-      <% end %>
-    </div>
-
-    <%= link_to "Nouvelle carte", new_card_path %>
-
+      </div>
+    <% end %>
   </div>
-
+  <%= link_to "Nouvelle carte", new_card_path %>
 </div>
