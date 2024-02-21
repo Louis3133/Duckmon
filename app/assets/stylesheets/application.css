@@ -15,9 +15,29 @@
  */
 
  .card{
-  border: black solid 1px;
+  border: #DDD633 solid 5px;
+  padding-top: 2%;
+  height: 450px;
+  margin-bottom: 2%;
+
  }
+
+.top_card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
 
 .navbar a{
   color: white
+}
+
+.card-img-top{
+  border-radius: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 93%;
 }
