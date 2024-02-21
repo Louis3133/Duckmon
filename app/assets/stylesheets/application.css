@@ -49,3 +49,19 @@ footer{
   background-color: black;
   height: 15vh;
 }
+
+.btn{
+  margin-bottom: 2%;
+}
+
+
+h1{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.create_form{
+display: flex;
+  justify-content: center;
+}

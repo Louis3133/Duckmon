@@ -1,8 +1,12 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Cards</h1>
-
 <div class="container">
+
+  <h1>Vos Duckmons</h1>
+
+  <%= link_to "Nouvelle carte", new_card_path, class: "btn btn-primary" %>
+
+
   <div class="row">
     <% @cards.each do |card| %>
       <div class="col-lg-4">
@@ -17,5 +21,5 @@
       </div>
     <% end %>
   </div>
-  <%= link_to "Nouvelle carte", new_card_path %>
+
 </div>

@@ -14,13 +14,17 @@
   </div>
 
 
-  <img class="card-img-top " src="<%= card.image_card %>" alt="illustration de la carter"  height="160px" >
+  <img class="card-img-top " src="<%= card.image_card %>" alt="illustration de la carter"  height="180px" >
 
   <p class="top_card">
 
     <%= card.description %>
   </p>
 
+<%= button_to "supprimer", @card, method: :delete, class:"btn btn-danger col-lg-4" %>
+
+  <div class="top_card">
+
 
 
   <div class="top_card">
@@ -31,18 +35,7 @@
     </p>
 
 
-  <div class="top_card">
-    <p>
-    <strong><%= card.attack_name %></strong>
 
-
-    </p>
-
-
-    <p>
-      <strong><%= card.damages %></strong>
-
-    </p>
   </div>
     <p>
       <strong><%= card.damages %></strong>
@@ -51,9 +44,6 @@
   </div>
 
 
-    <p class="top_card">
-      <%= card.action %>
-    </p>
     <p class="top_card">
       <%= card.action %>
     </p>

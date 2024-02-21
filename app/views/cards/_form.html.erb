@@ -13,44 +13,50 @@
       </div>
     <% end %>
 
-    <div class="container">
+
+  <div class="container col-lg-12">
+
+    <div class="row col-lg-9">
 
       <%= form.label :nom, style: "display: block" %>
       <%= form.text_field :name %>
     </div>
 
-    <div class="container">
+    <div class="row col-lg-9">
       <%= form.label :description, style: "display: block" %>
       <%= form.text_area :description %>
     </div>
 
-    <div class="container">
+    <div class="row col-lg-9">
       <%= form.label :dégats, style: "display: block" %>
       <%= form.text_field :damages %>
     </div>
 
-    <div class="container">
+    <div class="row col-lg-9">
       <%= form.label :image, style: "display: block" %>
       <%= form.text_area :image_card %>
     </div>
 
-    <div class="container">
+    <div class="row col-lg-9">
       <%= form.label :vie, style: "display: block" %>
       <%= form.text_field :pv %>
     </div>
 
-    <div class="container">
+    <div class="row col-lg-9">
       <%= form.label :action, style: "display: block" %>
       <%= form.text_area :action %>
     </div>
 
-    <div class="container">
+    <div class="row col-lg-9">
       <%= form.label :attaque, style: "display: block" %>
       <%= form.text_field :attack_name %>
     </div>
 
-    <div class="container">
+    <div class="container ">
       <%=  form.submit  %>
     </div>
 
+
   <% end %>
+
+  </div>
