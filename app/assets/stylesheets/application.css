@@ -66,12 +66,14 @@ display: flex;
 .health{
   position: absolute;
   right: 0;
-  margin-right: 2px;
+  margin-right: -3px;
+  margin-top: -3px;
   background-color: white;
-  padding: 4px;
+  padding: 15px;
   border-radius: 0px 60% 0px 60%;
+  border: 4px Black solid;
 
-;
+
 }
 
 h4{
