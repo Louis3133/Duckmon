@@ -111,3 +111,13 @@ h1{
 .logo{
   width: 25%;
 }
+
+.btn_show{
+  background-color: #00c1f4;
+  color: white;
+  text-decoration: none;
+  margin-top: 2%;
+  padding: 3%;
+  border-radius: 10px;
+  text-align: center;
+}
