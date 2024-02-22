@@ -47,9 +47,37 @@
 }
 
 footer{
+  display: flex;
+  flex-direction: row;
   width: 100%;
   background-color: black;
-  height: 15vh;
+  height: 30vh;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+  gap:10%;
+
+}
+
+footer a {
+  color: white;
+  font-size: 20px;
+}
+
+.social_media{
+  display: flex;
+  flex-direction: row;
+  gap: 25%;
+}
+.logo_footer{
+  width: 16%;
+
+}
+
+.nav_footer{
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
 }
 
 .btn{
@@ -106,6 +134,12 @@ header a{
 .nav_images{
   width: 25px;
   height: 25px;
+}
+
+.footer_images{
+  width: 60px;
+  height: 60px;
+
 }
 
 h1{
