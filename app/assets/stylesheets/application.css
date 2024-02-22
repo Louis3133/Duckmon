@@ -15,11 +15,11 @@
  */
 
  .card{
-  border: #DDD633 solid 5px;
+  border: #000000 solid 5px;
+  border-radius: 10%;
   padding-top: 2%;
   height: 450px;
   margin-bottom: 2%;
-
  }
 
 .top_card{
@@ -37,9 +37,6 @@
 
 .card-img-top{
   border-radius: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 93%;
   object-fit: cover;
 
 }
@@ -53,7 +50,6 @@ footer{
 .btn{
   margin-bottom: 2%;
 }
-
 
 h1{
   text-align: center;
