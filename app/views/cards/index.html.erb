@@ -2,16 +2,16 @@
 
 <div class="container">
 
-  <h1>Vos Duckmons</h1>
+  <h2>Le Pokeduck</h2>
 
   <%= link_to "Nouvelle carte", new_card_path, class: "btn btn-primary" %>
 
 
-  <div class="row">
+  <div class="row ">
     <% @cards.each do |card| %>
       <div class="col-lg-4">
           <%= render card %>
-          <div class="card-body">
+          <div class="card-body card_button_show">
             <p>
               <%= link_to "Montrer la carte", card, class: "btn_show" %>
             </p>

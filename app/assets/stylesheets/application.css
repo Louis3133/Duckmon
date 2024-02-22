@@ -18,8 +18,9 @@
   border: #000000 solid 7px;
   border-radius: 10%;
   height: 500px;
-  margin-bottom: 2%;
+  margin-bottom: 8%;
   box-shadow: 5px 6px 12px 6px rgba(0,0,0,0.35);
+  margin-top: 8%;
 
 
  }
@@ -110,6 +111,10 @@ h1{
 
 }
 
+h2{
+  text-align: center;
+}
+
 .logo{
   width: 25%;
 }
@@ -122,4 +127,6 @@ h1{
   padding: 3%;
   border-radius: 10px;
   text-align: center;
+
+
 }
