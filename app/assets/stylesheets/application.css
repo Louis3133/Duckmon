@@ -35,9 +35,9 @@
 }
 
 .card-img-top{
-  border-radius: 0px;
+  border-radius: 11% 11% 0 0;
   object-fit: cover;
-
+  border-bottom: black 5px solid;
 
 
 }
@@ -66,7 +66,5 @@ display: flex;
 .health{
   position: absolute;
   right: 0;
-
-
-
+  background-color: white;
 }
