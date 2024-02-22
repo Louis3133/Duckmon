@@ -1,10 +1,32 @@
 <h1>Ajout de carte</h1>
 
-<div class="create_form">
-  <%= render "form", card: @card %>
+<div class="form_content">
+
+  <div class="form_content_left">
+
+    <%= render "form", card: @card %>
+
+  </div>
+
+
+
+  <div class="form_content_right">
+
+    <h2>Exemple</h2>
+
+    <img class="carte_exemple" src="https://cdn.discordapp.com/attachments/1209826826487210005/1210234158585090118/1ere_version_carte_duckmon.png?ex=65e9d164&is=65d75c64&hm=e532e6219c531fc696df749eb5140a1ac934d0b67d18046d7496c0ad730c13e5&" alt="example">
+
+  </div>
+
+
+
+
+
+
+
 </div>
+
 <br>
 
-<div class="btn-back">
-  <%= link_to "retour aux cartes", cards_path %>
-</div>
+
+<%= link_to "retour aux cartes", cards_path %>
