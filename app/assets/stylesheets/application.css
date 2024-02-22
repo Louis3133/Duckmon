@@ -247,3 +247,13 @@ html{
   text-decoration: none;
   align-items: center;
 }
+
+.presentation{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.presentation p{
+
+}
