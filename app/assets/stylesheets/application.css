@@ -82,7 +82,15 @@ header{
   background-color: #000000;
   height: 15vh;
   align-items: center;
-  gap:3%;
+  justify-content: space-between;
+
+}
+
+.header_left{
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  align-items: center;
 }
 
 header a{
@@ -98,4 +106,8 @@ header a{
 h1{
   color: white;
 
+}
+
+.logo{
+  width: 25%;
 }
