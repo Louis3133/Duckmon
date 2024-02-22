@@ -15,7 +15,7 @@
  */
 
  .card{
-  border: #000000 solid 5px;
+  border: #000000 solid 7px;
   border-radius: 10%;
   height: 500px;
   margin-bottom: 2%;
@@ -35,7 +35,7 @@
 }
 
 .card-img-top{
-  border-radius: 11% 11% 0 0;
+  border-radius: 10% 10% 0 0;
   object-fit: cover;
   border-bottom: black 5px solid;
 
@@ -66,5 +66,10 @@ display: flex;
 .health{
   position: absolute;
   right: 0;
+  margin-right: 2px;
   background-color: white;
+  padding: 4px;
+  border-radius: 0px 60% 0px 60%;
+
+;
 }
