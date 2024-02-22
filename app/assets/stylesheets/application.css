@@ -17,8 +17,7 @@
  .card{
   border: #000000 solid 5px;
   border-radius: 10%;
-  padding-top: 2%;
-  height: 450px;
+  height: 500px;
   margin-bottom: 2%;
  }
 
@@ -38,6 +37,8 @@
 .card-img-top{
   border-radius: 0px;
   object-fit: cover;
+
+
 
 }
 
@@ -60,4 +61,11 @@ h1{
 .create_form{
 display: flex;
   justify-content: center;
+}
+
+.health{
+  position: absolute;
+  right: 0;
+
+
 }
