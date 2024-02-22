@@ -17,9 +17,9 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_20_170043) do
   create_table "cards", force: :cascade do |t|
     t.string "name"
     t.text "description"
-    t.float "damages"
+    t.integer "damages"
     t.text "image_card"
-    t.float "pv"
+    t.integer "pv"
     t.text "action"
     t.string "attack_name"
     t.datetime "created_at", null: false

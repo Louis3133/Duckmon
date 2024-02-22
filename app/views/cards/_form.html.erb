@@ -14,41 +14,44 @@
     <% end %>
 
 
-      <%= form.label :nom, style: "display: block" %>
-      <%= form.text_field :name %>
+
+    <div class="formulaire">
+
+
+    <h2>Crée ta propre carte !</h2>
+
+      <div class="form_align">
+
+        <%= form.text_field :name , placeholder: "Nom" %>
+
+        <%= form.text_field :pv, placeholder: "pv" %>
+
+      </div>
+
+
+      <%= form.text_area :image_card, placeholder: "url image" %>
+
+
+      <%= form.text_area :description, placeholder: "description" %>
+
+
+      <div class="form_align">
+
+        <%= form.text_field :attack_name, placeholder: "nom de l'attaque" %>
+
+
+        <%= form.text_field :damages, placeholder: "Dégats" %>
+
+      </div>
+
+      <%= form.text_area :action, placeholder: "action effectuée" %>
+
+    </div>
 
 
 
-      <%= form.label :description, style: "display: block" %>
-      <%= form.text_area :description %>
 
-
-
-      <%= form.label :dégats, style: "display: block" %>
-      <%= form.text_field :damages %>
-
-
-
-      <%= form.label :image, style: "display: block" %>
-      <%= form.text_area :image_card %>
-
-
-
-      <%= form.label :vie, style: "display: block" %>
-      <%= form.text_field :pv %>
-
-
-
-      <%= form.label :action, style: "display: block" %>
-      <%= form.text_area :action %>
-
-
-
-      <%= form.label :attaque, style: "display: block" %>
-      <%= form.text_field :attack_name %>
-
-
-    <div class="container create_submit">
+    <div class="container">
       <%=  form.submit  %>
     </div>
 

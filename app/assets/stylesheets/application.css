@@ -213,5 +213,37 @@ html{
 }
 
 .carte_exemple{
-  width:60%;
+  width:50%;
+}
+
+.form_align{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+
+
+}
+
+.formulaire{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 3%;
+}
+
+
+
+.return{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  margin-top: 5%;
+  width: 10%;
+  height: 40px;
+  background-color:#00c1f4;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  align-items: center;
 }
