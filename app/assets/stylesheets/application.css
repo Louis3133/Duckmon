@@ -25,13 +25,22 @@
   background: linear-gradient(0.50turn, #ffffff, #f8f8f8, #c5c5c3);
 
 
+
  }
 
+
+ .card-body{
+  text-decoration: none;
+
+ }
  .card:hover{
   transform: scale(1.1);
 
  }
-
+ .card-link {
+  text-decoration: none;
+  color: inherit;
+}
 
 
 .top_card{
@@ -208,10 +217,12 @@ h2{
 }
 
 .btn_create{
-
+  display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  width: 11%;
+
 
 }
 

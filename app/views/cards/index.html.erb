@@ -24,22 +24,20 @@
 
   <h2>Le Pokeduck</h2>
 
-  <%= link_to "Nouvelle carte", new_card_path, class: "btn btn-primary btn_create" %>
+  <%= link_to "Créer une carte", new_card_path, class: "btn btn-primary btn_create" %>
 
 
-  <div class="row ">
-    <% @cards.each do |card| %>
-      <div class="col-lg-4">
-          <%= render card %>
-          <div class="card-body card_button_show">
-            <p>
-              <%= link_to "Montrer la carte", card, class: "btn_show" %>
-            </p>
-          </div>
-
-
-      </div>
-    <% end %>
-  </div>
+  <div class="row">
+  <% @cards.each do |card| %>
+    <div class="col-lg-4">
+      <%= link_to card_path(card), class: "card-link" do %>
+        <%= render card %>
+        <div class="card-body card_button_show">
+          <!-- Contenu de la carte -->
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>
 
 </div>
