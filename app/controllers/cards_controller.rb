@@ -3,7 +3,9 @@ class CardsController < ApplicationController
 
   # GET /cards or /cards.json
   def index
-    @cards = Card.all
+    @term = params[:term]
+    @cards = @term.blank? ? Card.all
+                          : Card.where("name LIKE (?)","%#{@term}%")
   end
 
   # GET /cards/1 or /cards/1.json

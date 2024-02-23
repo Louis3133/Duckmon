@@ -90,6 +90,10 @@ footer a {
 
 }
 
+
+
+
+
 input{
   border: solid 1px black;
   border-radius: 10px;
@@ -119,8 +123,10 @@ textarea{
 .nav_footer{
   display: flex;
   flex-direction: row;
-  gap: 2%;
+  gap: 10%;
 }
+
+
 
 .btn{
   margin-bottom: 2%;
@@ -207,6 +213,27 @@ h1{
   margin-right: 5%;
 
 }
+
+.search_bar{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.search_bar input{
+  border-radius: 120px;
+  height: 40px;
+
+}
+
+.search_bar button{
+  border-radius: 0px 120px 120px 0px;
+  height: 40px;
+
+}
+
 
 h2{
   text-align: center;
