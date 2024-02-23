@@ -68,6 +68,23 @@ footer{
 footer a {
   color: white;
   font-size: 20px;
+
+}
+
+input{
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
+
+}
+
+textarea{
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 100%;
+  height: 80px;
+
 }
 
 .social_media{
