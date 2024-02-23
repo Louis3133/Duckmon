@@ -42,6 +42,10 @@
   color: inherit;
 }
 
+.card-link:hover {
+  color: inherit;
+}
+
 
 .top_card{
   display: flex;
