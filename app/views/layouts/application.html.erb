@@ -14,13 +14,14 @@
 
     <div class="header_left">
 
-    <img class="logo"  src="https://media.discordapp.net/attachments/1209826826487210005/1210167745128431636/image-removebg-preview.png?ex=65e9938a&is=65d71e8a&hm=93b2ee2600262916fd953dd14fbcbbcca0cdcc63e5e09f2b5723f864bb55f606&=&format=webp&quality=lossless&width=700&height=700" alt="logo">
+    <%= image_tag "logo_duckdoc.png", class: "logo" %>
+
     <div>
-      <img class="nav_images" src="https://cdn.discordapp.com/attachments/1209826826487210005/1210156711411847239/card_2.png?ex=65e98943&is=65d71443&hm=a52a50b790cd2bbe62ecf2082d2d769dfb4290474a100e5551b2a82c934d9132&" alt="cards">
+      <%= image_tag "logo_card.png", class: "nav_images" %>
       <a href="/cards">Cartes</a>
     </div>
     <div>
-      <img class="nav_images" src="https://cdn.discordapp.com/attachments/1209826826487210005/1210156716621299772/plus.png?ex=65e98944&is=65d71444&hm=4c03b796df17f06581a6bed03147d33c3a5ee5e23726cfc689b08dc74bdd74f6&" alt="create">
+      <%= image_tag "logo_plus.png", class: "nav_images" %>
       <a href="/cards/new">Créer</a>
     </div>
 
@@ -47,13 +48,12 @@
     </div>
 
     <div class="social_media">
-      <a href="https://twitter.com/Duckmons"><img class="footer_images" src="https://media.discordapp.net/attachments/1209826826487210005/1210192802059919360/twitter.png?ex=65e9aae0&is=65d735e0&hm=07df9cad98f6abbfa42b96997f06c2fe812aac0d7a61ebd2f3053725641b9552&=&format=webp&quality=lossless&width=1024&height=1024" alt="logo X"></a>
-      <a href="https://www.instagram.com/duckmons/"><img class="footer_images" src="https://media.discordapp.net/attachments/1209826826487210005/1210192802361905202/instagram_2.png?ex=65e9aae0&is=65d735e0&hm=c7aa31c1cffefa201944dd6f86777bf14a3a2771c134f97752a84f833d2e2972&=&format=webp&quality=lossless&width=1024&height=1024" alt="logo Instagram"></a>
-      <a href="mailto:duckmon161@gmail.com"><img class="footer_images" src="https://media.discordapp.net/attachments/1209826826487210005/1210192801799733268/enveloppe.png?ex=65e9aae0&is=65d735e0&hm=56c8a60f417388c6895e263b25f78514c89d1b9752c3218af446098c5fbf32ef&=&format=webp&quality=lossless&width=1024&height=1024" alt="logo mail"></a>
+      <a href="https://twitter.com/Duckmons"><%= image_tag "twitter.png", class: "footer_images" %></a>
+      <a href="https://www.instagram.com/duckmons/"><%= image_tag "instagram.png", class: "footer_images" %></a>
+      <a href="mailto:duckmon161@gmail.com"><%= image_tag "enveloppe.png", class: "footer_images" %></a>
     </div>
 
-    <img class="logo_footer" src="https://media.discordapp.net/attachments/1209826826487210005/1210167745128431636/image-removebg-preview.png?ex=65e9938a&is=65d71e8a&hm=93b2ee2600262916fd953dd14fbcbbcca0cdcc63e5e09f2b5723f864bb55f606&=&format=webp&quality=lossless&width=700&height=700" alt="logo">
-
+    <%= image_tag "logo_duckdoc.png", class: "logo_footer" %>
 
   </footer>
 

@@ -28,6 +28,13 @@
 
  }
 
+ .btn_control_show{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+ }
+
 
  .card-body{
   text-decoration: none;
